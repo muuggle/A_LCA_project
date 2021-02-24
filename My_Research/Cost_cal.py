@@ -180,10 +180,10 @@ class ProductionCostofPlant(CapitalInvestment):
         research_and_development = 0.04 * self.TPC_Totalproductioncosts()
         return research_and_development
 
-# eq = 100000
-# DC = DirectCosts(eq)
-# IDC = IndirectCosts(eq)
-# CI = CapitalInvestment(eq)
-# print(DC.TDC_Totaldirectcosts())
-# print(IDC.TIC_Totalindirectcosts())
-# print(CI.TCI_Totalcapitalinvestment())
+eq = 1000000
+DC = DirectCosts(eq)
+IDC = IndirectCosts(eq)
+CI = CapitalInvestment(eq)
+print(DC.TDC_Totaldirectcosts())
+print(IDC.TIC_Totalindirectcosts())
+print(CI.TCI_Totalcapitalinvestment())
